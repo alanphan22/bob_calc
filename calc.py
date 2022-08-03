@@ -14,3 +14,7 @@ def compute(expression):
     else:
         print('unknown operator!')
         return None
+    
+    ## Add a test function
+    def test():
+        print("test")
