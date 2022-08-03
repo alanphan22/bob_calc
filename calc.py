@@ -1,5 +1,6 @@
 # Perform simple arithmetic encoded in an input string:
 # '1 + 2' -> 3, or '1 - 2' -> -1.
+# This is Bob project
 def compute(expression):
     num0, operator, num1 = expression.split(' ')
     if operator == '+':
